@@ -1,0 +1,10 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Blue Twin", "DarkTheme")
+
+--ADMIN
+local Tab = Window:NewTab("Dungeons")
+local Section = Tab:NewSection("Dungeons")
+
+Section:NewButton("Dungeons", "TELEPORT", function()
+    print("Clicked")
+end)
